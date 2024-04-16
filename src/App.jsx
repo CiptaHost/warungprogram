@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navbar />}>
-          <Route index element={<><Card /><Section /></>} />
+          <Route index element={<><Card /></>} />
         </Route>
       </Routes>
     </BrowserRouter>
